@@ -1,7 +1,7 @@
 import urllib
 
-row1=int(input('请输入行数：'))
-for i in range(row1):
+row=int(input('请输入行数：'))
+for i in range(row):
    for j in range(i):
       print('*',end='')
    print('')
